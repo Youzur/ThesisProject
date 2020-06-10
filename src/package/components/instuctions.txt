@@ -1,0 +1,36 @@
+        - INSTRUCTIONS -
+
+*** INTRODUCTION ***
+This is a study on API creation in improving development of React.js. The focus improvement would be in the
+user interface aspect, such as making user friendly components that could help developers create their own unique
+infrastructure. All methods that are mentioned here for creating a custom component are described in detail, in the
+thesis report.
+
+*** METHODS ***
+Within package folder, in the src folder, contains the custom components provided to create a simple log-in example.
+The following steps includes creating a custom Class component, standardizing attributes, exporting, and importing
+the components to designated project:
+
+ - Creating a Custom Class component:
+When creating a class, it is good to categories components into their respective folders in order to keep track of the
+type of GUI component, for example the CustomButton and RegisterButton components are placed in the buttons category. If
+a category does not exist for a custom made component, create a folder with a folder name that defines the type of
+component it is suited for. Once decided on the component type, create a javaScript file under the desired folder to
+which designing the custom component takes place. In the thesis study, figures have been added to present how the
+creation of a Class component is done, specifically figure 5. To access React.js' Top-Level API development, one needs
+import React API due to nature of the file being in JavaScript.
+
+ - Standardizing attributes:
+Once a class is created, the next step is to design unique attributes for the desired component. By reading and
+analyzing the thesis, the method of using defaultProps enables the developer of such feat, of manipulating the element
+properties of the rendering component. Notice in the first appendix figure in the thesis report how the method of
+implementing the defaultProps, in the custom component Class, is used by enforcing HTML styling attributes and
+JavaScript functionality implementations. Such implementations of styling are adding background colors, creating
+borders, changes font sizes, while also being able to implement a JavaScript function.
+
+ - Exporting and Importing Components:
+When creating a class component, it is important add the JavaScript implementation of exporting a class:
+'export default [Your Custom Class Component];' which enables it to be imported to the designated App.js file. The
+method of calling in the custom element is similar to when defining a HTML tag in React.js, such as '<p>...</p>'. In
+case of the custom component, similar to when importing the React API, one can import the components in the related
+fashion. Example: 'import CustomComponent from "./components/CustomComponent";'.
